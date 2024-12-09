@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="EMAP Dataset Challenge: Predicting Affective States and Physiological Responses with Feature Selection">
+    <title>EMAP Dataset Challenge</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #00539C;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        main {
+            padding: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+            background: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2, h3 {
+            color: #00539C;
+        }
+        section {
+            margin-bottom: 2rem;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #333;
+            color: #fff;
+        }
+        a {
+            color: #00539C;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>EMAP Dataset Challenge</h1>
+        <p>Predicting Affective States and Physiological Responses with Feature Selection</p>
+    </header>
+    <main>
+        <section id="description">
+            <h2>Description</h2>
+            <p>
+                Understanding and predicting human emotional states and physiological responses is a complex challenge with significant implications for affective computing, neuroscience, and human-computer interaction. The Emotion Arousal Pattern (EMAP) dataset offers a rich, multimodal resource that includes neuro- and peripheral physiological signals alongside emotional ratings. This dataset enables a more detailed exploration of dynamic emotional and physiological processes.
+            </p>
+        </section>
+        <section id="dataset-description">
+            <h2>Dataset Description</h2>
+            <p>
+                The Emotional Arousal Pattern (EMAP) dataset contains neurophysiological, peripheral physiological, and self-reported emotional data from 145 individuals recorded while watching various short video clips. Extracted features include:
+            </p>
+            <ul>
+                <li>256 EEG features</li>
+                <li>4 peripheral physiological features: galvanic skin response (GSR), respiration, heart rate (HR), and blood volume</li>
+            </ul>
+            <p>
+                Participants can request access to the train and validation set of the extracted features through the following link: <a href="https://www.wgtn.ac.nz/psyc/research/emap-open-database">EMAP Open Database</a>.
+            </p>
+        </section>
+        <section id="competition-tasks">
+            <h2>Competition Tasks</h2>
+            <h3>Primary Task (Regression)</h3>
+            <ul>
+                <li>Implement regression algorithms to predict arousal, heart rate, and skin conductance separately using different feature selection approaches.</li>
+                <li>Assess the performance of the algorithms using root mean squared error (RMSE) as the evaluation metric.</li>
+                <li>Visualize the results by plotting graphs that compare the predicted and true time courses for arousal, heart rate, and skin conductance.</li>
+            </ul>
+            <h3>Bonus Task (Classification)</h3>
+            <ul>
+                <li>Implement classification models to categorize arousal ratings.</li>
+                <li>Convert labels into binary classes: Low Arousal (0.00–0.5) and High Arousal (0.51–1.0).</li>
+                <li>Evaluate classification performance using the F1-score as the primary metric.</li>
+            </ul>
+        </section>
+        <section id="submission-guidelines">
+            <h2>Submission Guidelines</h2>
+            <ul>
+                <li>Submit a PPT slide describing your approach and achieved accuracy.</li>
+                <li>Include your best model(s), a prediction file, and a CSV file of selected features.</li>
+                <li>Provide open-source code for reproducibility.</li>
+                <li>Submit all materials to: <a href="mailto:afcrinlab@vuw.ac.nz">afcrinlab@vuw.ac.nz</a></li>
+            </ul>
+        </section>
+        <section id="important-dates">
+            <h2>Important Dates</h2>
+            <p><strong>Submission Deadline:</strong> May 25th, 2025</p>
+        </section>
+        <section id="organizers">
+            <h2>Competition Organizers</h2>
+            <ul>
+                <li>
+                    <strong>Harisu Abdullahi Shehu</strong><br>
+                    School of Engineering and Computer Science, Victoria University of Wellington, New Zealand.<br>
+                    Email: <a href="mailto:harisu.shehu@ecs.vuw.ac.nz">harisu.shehu@ecs.vuw.ac.nz</a>
+                </li>
+                <li>
+                    <strong>Hedwig Eisenbarth</strong><br>
+                    School of Psychology, Victoria University of Wellington, New Zealand.<br>
+                    Email: <a href="mailto:hedwig.eisenbarth@vuw.ac.nz">hedwig.eisenbarth@vuw.ac.nz</a>
+                </li>
+                <li>
+                    <strong>Bing Xue</strong><br>
+                    School of Engineering and Computer Science, Victoria University of Wellington, New Zealand.<br>
+                    Email: <a href="mailto:bing.xue@ecs.vuw.ac.nz">bing.xue@ecs.vuw.ac.nz</a>
+                </li>
+                <li>
+                    <strong>Will Browne</strong><br>
+                    School of Electrical Electronics and Robotics, Queensland University of Technology, Australia.<br>
+                    Email: <a href="mailto:will.browne@qut.edu.au">will.browne@qut.edu.au</a>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 EMAP Dataset Challenge</p>
+    </footer>
+</body>
+</html>
